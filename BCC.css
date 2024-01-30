@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: wheat;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 20px;
+    text-align: center;
+    color:brown;
+    font-size: 80px;
+    font-family: "anton" sans-serif;
+    letter-spacing: 10px;
+    transition: all 0.5s;
+}
+
+.color-range{
+    -webkit-appearance: none;
+}
+
+.color-range::-webkit-color-swatch-wrapper{
+    padding: 0;
+}
+
+.color-range::-webkit-color-swatch {
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 5px #0000002a;
+  }
+  
